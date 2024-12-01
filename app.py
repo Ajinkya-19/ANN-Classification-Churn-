@@ -2,6 +2,7 @@ import streamlit  as st
 import numpy as np
 import pandas as pd
 import tensorflow as tf 
+print(tf.__version__)
 from sklearn.preprocessing import StandardScaler, LabelEncoder, OneHotEncoder
 import pickle 
 
